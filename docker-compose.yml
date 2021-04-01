@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aethon:
+    image: aethon
+    build:
+      context: .
+      dockerfile: ./Dockerfile
